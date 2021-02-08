@@ -2,7 +2,8 @@ const ADD_FLIGHT = 'ADD_FLIGHT';
 const SET_ALERT = 'SET_ALERT';
 
 const defaultState = {
-	flights: [{ from: 'israel', to: 'usa', departureTime: 60, landingTime: 30, price: 150 }],
+	// flights: [{ from: 'israel', to: 'usa', departureTime: 60, landingTime: 30, price: 150 }],
+	flights: [],
 	openAlert: false,
 };
 
