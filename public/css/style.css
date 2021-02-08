@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	overflow: hidden;
+}
+body {
+	box-sizing: border-box;
+	min-height: 100% !important;
+	height: 100%;
+}
