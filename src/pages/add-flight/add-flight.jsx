@@ -21,7 +21,7 @@ const AddFlight = () => {
 
 	const onSubmit = () => {
 		if (!from || !to || !departureTime || !landingTime || !price) {
-			setError('fill all fields please');
+			setError('Please fill all fields correctly');
 			return;
 		}
 		const data = {
@@ -80,7 +80,7 @@ const AddFlight = () => {
 				onChange={(e) => setPrice(e.target.value)}
 				style={{ marginBottom: '30px' }}
 			/>
-			{error && <ErrorText>{error}</ErrorText>}
+			{error && <ErrorText style={{ marginBottom: '20px' }}>{error}</ErrorText>}
 			<RoundButton onClick={() => onSubmit()}>Save</RoundButton>
 		</AddFlightsContainer>
 	);

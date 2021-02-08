@@ -44,7 +44,7 @@ const Login = () => {
 				onChange={(e) => setPassword(e.target.value)}
 				style={{ marginBottom: '100px' }}
 			/>
-			{error && <ErrorText>{error}</ErrorText>}
+			{error && <ErrorText style={{ marginBottom: '20px' }}>{error}</ErrorText>}
 			<RoundButton
 				type="submit"
 				onClick={() => {
